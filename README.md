@@ -6,7 +6,7 @@ This script run in Debian GNU/Linux Stretch (9), you need install the packages '
 'libreoffice' and 'imagemagick'.
 
 # Process
-https://github.com/innaky/pptx-to-images/blob/master/process.png
+![Image Process](https://raw.githubusercontent.com/innaky/pptx-to-images/master/process.png)
 
 # TODO
 * Document the source code.
