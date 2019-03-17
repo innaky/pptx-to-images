@@ -8,6 +8,9 @@ def random_string(size=32, chars=string.ascii_letters + string.digits):
     return ''.join(random.choice(chars) for _ in range(size))
 
 def base_dir(path_of_file):
+    """
+    Extract the previous or base directory name.
+    """
     base_path = path_of_file.split("/")
     del base_path[0]
     del base_path[-1]
@@ -18,6 +21,9 @@ def base_dir(path_of_file):
     return conc_base
 
 def search_file(path, ext):
+    """
+    Search in `path' the file with determinate `ext'.
+    """
     to_search = []
     for local_files in os.listdir(path):
         if local_files.endswith(ext):
