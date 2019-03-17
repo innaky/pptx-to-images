@@ -9,5 +9,5 @@ This script run in Debian GNU/Linux Stretch (9), you need install the packages '
 ![Image Process](https://raw.githubusercontent.com/innaky/pptx-to-images/master/process.png)
 
 # TODO
-* Document the source code.
-* Add a test example.
+- [x] Document the source code.
+- [ ] Add a test example.
